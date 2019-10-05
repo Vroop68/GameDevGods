@@ -19,14 +19,14 @@ public class DmgPlayer : MonoBehaviour
     {
 
     }
-    /**
-        void OnCollisionEnter2D(Collision2D other)
-        {
-            if(other.gameObject.name=="Player")
-            {
-                other.gameObject.GetComponent<PlayerHealthManager>().HurtPlayer(DmgToDeal);
 
-            }
-        }*/
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.name == "Player")
+        {
+            other.gameObject.GetComponent<PlayerHealthManager>().HurtPlayer(DmgToDeal);
+
+        }
+    }
 
 }

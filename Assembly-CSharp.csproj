@@ -57,7 +57,10 @@
      <Compile Include="Assets\Scripts\EnemyController.cs" />
      <Compile Include="Assets\Scripts\EnemyHealthManager.cs" />
      <Compile Include="Assets\Scripts\HurtEnemy.cs" />
+     <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\PlayerHealthManager.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\UIManager.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/elvis/Desktop/J.D/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

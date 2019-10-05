@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
-    private Rigidbody2D rb2d;
+    private Rigidbody2D rBody;
 
     [Header("Player Properties")]
     public float jumpHeight;
@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void Start()
     {
-        rb2d = gameObject.GetComponent<Rigidbody2D>();
+        rBody = gameObject.GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -40,13 +40,13 @@ public class PlayerMovement : MonoBehaviour
     void Movement()
     {
         //X-Axis movement
-        float inputX = Input.GetAxis("Horizontal");
-        rb2d.velocity = new Vector2(inputX * speed, rb2d.velocity.y);
+        float moveHorizontal = Input.GetAxis("Horizontal");
+        rBody.velocity = new Vector2(moveHorizontal * speed, rBody.velocity.y);
 
         //Y-Axis/Jumping movement
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded == true)
         {
-            rb2d.AddForce(new Vector3(0.0f, jumpHeight, 0.0f), ForceMode2D.Impulse);
+            rBody.AddForce(new Vector3(0.0f, jumpHeight, 0.0f), ForceMode2D.Impulse);
             isGrounded = false;
         }
     }
