@@ -10,7 +10,7 @@ public class EnemyHealthManager : MonoBehaviour
 
 
 
-
+    //This script will be used to manage the health of enemies.
     // Use this for initialization
     void Start()
     {

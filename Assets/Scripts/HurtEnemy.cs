@@ -4,8 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class HurtEnemy : MonoBehaviour {
-
+public class HurtEnemy : MonoBehaviour
+{
+    //This script will be used to allow the player to damage the enemy
     public int dmgToDeal;
     public GameObject damageBurst;
     public Transform hitPoint;
@@ -14,15 +15,18 @@ public class HurtEnemy : MonoBehaviour {
 
 
     // Use this for initialization
-    void Start () {
+    void Start()
+    {
         WinText.gameObject.SetActive(false);
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    }
 
-	}
+    // Update is called once per frame
+    void Update()
+    {
 
+    }
+
+    //Upon collision with the player the enemy will take damage
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.tag == "Enemy")
@@ -32,7 +36,7 @@ public class HurtEnemy : MonoBehaviour {
             other.gameObject.GetComponent<EnemyHealthManager>().HurtEnemy(dmgToDeal);
 
             Instantiate(damageBurst, hitPoint.position, hitPoint.rotation);
-            if (other.gameObject.name == "Boss" )
+            if (other.gameObject.name == "Boss")
             {
                 if (other.gameObject.GetComponent<EnemyHealthManager>().CurrentHealth == 0)
                 {
