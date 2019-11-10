@@ -13,7 +13,6 @@ public class DmgPlayer : MonoBehaviour
         if (other.gameObject.name == "Player")
         {
             other.gameObject.GetComponent<PlayerHealthManager>().HurtPlayer(DmgToDeal);
-
         }
     }
 

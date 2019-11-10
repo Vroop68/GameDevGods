@@ -1,9 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Util;
+
 public class PlayerMovement : MonoBehaviour
 {
     private Rigidbody2D rBody;
+    public PlayerAnimState playerAnimState;
+    public Animator playerAnimator;
 
     [Header("Player Properties")]
     public float jumpHeight;
@@ -15,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     public void Start()
     {
         rBody = gameObject.GetComponent<Rigidbody2D>();
+        playerAnimState = PlayerAnimState.IDLE;
     }
 
     // Update is called once per frame
@@ -27,13 +32,24 @@ public class PlayerMovement : MonoBehaviour
         Vector3 characterScale = transform.localScale;
         if (Input.GetAxis("Horizontal") < 0)
         {
-            characterScale.x = -1;
+            characterScale.x = -13;
+            playerAnimState = PlayerAnimState.WALK;
+            playerAnimator.SetInteger("AnimState", (int)PlayerAnimState.WALK);
         }
         if (Input.GetAxis("Horizontal") > 0)
         {
-            characterScale.x = 1;
+            characterScale.x = 13;
+            playerAnimState = PlayerAnimState.WALK;
+            playerAnimator.SetInteger("AnimState", (int)PlayerAnimState.WALK);
         }
         transform.localScale = characterScale;
+
+        //Return to idle
+        if (Input.GetAxis("Horizontal") == 0)
+        {
+            playerAnimState = PlayerAnimState.IDLE;
+            playerAnimator.SetInteger("AnimState", (int)PlayerAnimState.IDLE);
+        }
     }
 
     //Basic movement function
