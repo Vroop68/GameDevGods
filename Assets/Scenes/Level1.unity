@@ -4373,6 +4373,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1697339895169342493, guid: cb3290a7d43ad9f4ba26df2a7068fc18,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.08760342
+      objectReference: {fileID: 0}
+    - target: {fileID: 1697339895169342493, guid: cb3290a7d43ad9f4ba26df2a7068fc18,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.14479315
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb3290a7d43ad9f4ba26df2a7068fc18, type: 3}
 --- !u!1 &130133609 stripped
@@ -47234,7 +47244,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 14.672895
+  orthographic size: 15
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -47258,7 +47268,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1552717230}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.67, y: 6.1, z: -10}
+  m_LocalPosition: {x: -2.8, y: 9, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
