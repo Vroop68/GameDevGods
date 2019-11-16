@@ -7076,26 +7076,6 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 0.13998367
       objectReference: {fileID: 0}
-    - target: {fileID: 114558201612152568, guid: eed687cc0dc0fd84eb4d4d789fee332f,
-        type: 3}
-      propertyPath: moveSpeed
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 114558201612152568, guid: eed687cc0dc0fd84eb4d4d789fee332f,
-        type: 3}
-      propertyPath: timeBetweenMovements
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114558201612152568, guid: eed687cc0dc0fd84eb4d4d789fee332f,
-        type: 3}
-      propertyPath: timeToMove
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114558201612152568, guid: eed687cc0dc0fd84eb4d4d789fee332f,
-        type: 3}
-      propertyPath: waitReload
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 212323517269378968, guid: eed687cc0dc0fd84eb4d4d789fee332f,
         type: 3}
       propertyPath: m_SortingOrder
@@ -7140,6 +7120,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_GravityScale
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 114558201612152568, guid: eed687cc0dc0fd84eb4d4d789fee332f,
+        type: 3}
+      propertyPath: moveSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 114558201612152568, guid: eed687cc0dc0fd84eb4d4d789fee332f,
+        type: 3}
+      propertyPath: timeBetweenMovements
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114558201612152568, guid: eed687cc0dc0fd84eb4d4d789fee332f,
+        type: 3}
+      propertyPath: timeToMove
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114558201612152568, guid: eed687cc0dc0fd84eb4d4d789fee332f,
+        type: 3}
+      propertyPath: waitReload
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eed687cc0dc0fd84eb4d4d789fee332f, type: 3}
@@ -9640,26 +9640,6 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 0.13998367
       objectReference: {fileID: 0}
-    - target: {fileID: 114558201612152568, guid: eed687cc0dc0fd84eb4d4d789fee332f,
-        type: 3}
-      propertyPath: moveSpeed
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 114558201612152568, guid: eed687cc0dc0fd84eb4d4d789fee332f,
-        type: 3}
-      propertyPath: timeBetweenMovements
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114558201612152568, guid: eed687cc0dc0fd84eb4d4d789fee332f,
-        type: 3}
-      propertyPath: timeToMove
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114558201612152568, guid: eed687cc0dc0fd84eb4d4d789fee332f,
-        type: 3}
-      propertyPath: waitReload
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 212323517269378968, guid: eed687cc0dc0fd84eb4d4d789fee332f,
         type: 3}
       propertyPath: m_SortingOrder
@@ -9704,6 +9684,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_GravityScale
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 114558201612152568, guid: eed687cc0dc0fd84eb4d4d789fee332f,
+        type: 3}
+      propertyPath: moveSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 114558201612152568, guid: eed687cc0dc0fd84eb4d4d789fee332f,
+        type: 3}
+      propertyPath: timeBetweenMovements
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114558201612152568, guid: eed687cc0dc0fd84eb4d4d789fee332f,
+        type: 3}
+      propertyPath: timeToMove
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114558201612152568, guid: eed687cc0dc0fd84eb4d4d789fee332f,
+        type: 3}
+      propertyPath: waitReload
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eed687cc0dc0fd84eb4d4d789fee332f, type: 3}
@@ -16114,26 +16114,6 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 0.13998367
       objectReference: {fileID: 0}
-    - target: {fileID: 114558201612152568, guid: eed687cc0dc0fd84eb4d4d789fee332f,
-        type: 3}
-      propertyPath: moveSpeed
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 114558201612152568, guid: eed687cc0dc0fd84eb4d4d789fee332f,
-        type: 3}
-      propertyPath: timeBetweenMovements
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114558201612152568, guid: eed687cc0dc0fd84eb4d4d789fee332f,
-        type: 3}
-      propertyPath: timeToMove
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114558201612152568, guid: eed687cc0dc0fd84eb4d4d789fee332f,
-        type: 3}
-      propertyPath: waitReload
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 212323517269378968, guid: eed687cc0dc0fd84eb4d4d789fee332f,
         type: 3}
       propertyPath: m_SortingOrder
@@ -16178,6 +16158,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_GravityScale
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 114558201612152568, guid: eed687cc0dc0fd84eb4d4d789fee332f,
+        type: 3}
+      propertyPath: moveSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 114558201612152568, guid: eed687cc0dc0fd84eb4d4d789fee332f,
+        type: 3}
+      propertyPath: timeBetweenMovements
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114558201612152568, guid: eed687cc0dc0fd84eb4d4d789fee332f,
+        type: 3}
+      propertyPath: timeToMove
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114558201612152568, guid: eed687cc0dc0fd84eb4d4d789fee332f,
+        type: 3}
+      propertyPath: waitReload
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eed687cc0dc0fd84eb4d4d789fee332f, type: 3}
@@ -23335,26 +23335,6 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 0.13998367
       objectReference: {fileID: 0}
-    - target: {fileID: 114558201612152568, guid: eed687cc0dc0fd84eb4d4d789fee332f,
-        type: 3}
-      propertyPath: moveSpeed
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 114558201612152568, guid: eed687cc0dc0fd84eb4d4d789fee332f,
-        type: 3}
-      propertyPath: timeBetweenMovements
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114558201612152568, guid: eed687cc0dc0fd84eb4d4d789fee332f,
-        type: 3}
-      propertyPath: timeToMove
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114558201612152568, guid: eed687cc0dc0fd84eb4d4d789fee332f,
-        type: 3}
-      propertyPath: waitReload
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 212323517269378968, guid: eed687cc0dc0fd84eb4d4d789fee332f,
         type: 3}
       propertyPath: m_SortingOrder
@@ -23399,6 +23379,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_GravityScale
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 114558201612152568, guid: eed687cc0dc0fd84eb4d4d789fee332f,
+        type: 3}
+      propertyPath: moveSpeed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 114558201612152568, guid: eed687cc0dc0fd84eb4d4d789fee332f,
+        type: 3}
+      propertyPath: timeBetweenMovements
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114558201612152568, guid: eed687cc0dc0fd84eb4d4d789fee332f,
+        type: 3}
+      propertyPath: timeToMove
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114558201612152568, guid: eed687cc0dc0fd84eb4d4d789fee332f,
+        type: 3}
+      propertyPath: waitReload
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eed687cc0dc0fd84eb4d4d789fee332f, type: 3}
@@ -34704,7 +34704,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1553206585
   m_SortingLayer: 2
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 85c83c50e4cea4f40925d0a3c541a151, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -35890,11 +35890,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3412501236735858909, guid: c42b9950f087fb84492386cc8b9ea0e8,
-        type: 3}
-      propertyPath: playerHealth
-      value: 
-      objectReference: {fileID: 265679641}
     - target: {fileID: 188695003171045955, guid: c42b9950f087fb84492386cc8b9ea0e8,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -35910,6 +35905,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 11.300049
       objectReference: {fileID: 0}
+    - target: {fileID: 3412501236735858909, guid: c42b9950f087fb84492386cc8b9ea0e8,
+        type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 265679641}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c42b9950f087fb84492386cc8b9ea0e8, type: 3}
 --- !u!1001 &6267144088065895720
