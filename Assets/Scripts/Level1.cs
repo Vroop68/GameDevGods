@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Level1 : MonoBehaviour
 {
+<<<<<<< HEAD
     void OnTriggerEnter2D(Collider2D target)
     {
 
@@ -18,6 +19,23 @@ public class Level1 : MonoBehaviour
             //explosionSound.Play();
             //anim.Play("Destroy");
 
+=======
+    private AudioSource Teleport;
+
+    public void Start()
+    {
+        Teleport = GetComponent<AudioSource>();
+    }
+    void OnTriggerEnter2D(Collider2D target)
+    {
+
+        print("Collision");
+        if (target.CompareTag("Player"))
+        {
+            Teleport.Play();
+           // new WaitForSeconds(0.3f);
+            SceneManager.LoadScene("Level1");
+>>>>>>> master
         }
 
     }
