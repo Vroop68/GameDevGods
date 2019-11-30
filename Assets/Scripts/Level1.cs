@@ -5,19 +5,21 @@ using UnityEngine.SceneManagement;
 
 public class Level1 : MonoBehaviour
 {
+    private AudioSource Teleport;
+
+    public void Start()
+    {
+        Teleport = GetComponent<AudioSource>();
+    }
     void OnTriggerEnter2D(Collider2D target)
     {
 
-        if (target.tag == "Player")
+        print("Collision");
+        if (target.CompareTag("Player"))
         {
+            Teleport.Play();
+           // new WaitForSeconds(0.3f);
             SceneManager.LoadScene("Level1");
-
-            //Teleport sound to be added here.
-
-            // play explosion sound
-            //explosionSound.Play();
-            //anim.Play("Destroy");
-
         }
 
     }
