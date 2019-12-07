@@ -10,7 +10,7 @@ public class StoryPage : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            Destroy(gameObject, 0.1f);
+            Destroy(gameObject);
         }
     }
 }

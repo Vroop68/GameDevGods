@@ -96,6 +96,11 @@ public class PlayerMovement : MonoBehaviour
         {
           Ow.Play();
         }
+
+        //if (collision.gameObject.tag == "Page")
+        //{
+        //    Destroy(gameObject);
+        //}
     }
 
     void fire()

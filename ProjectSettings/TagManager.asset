@@ -7,11 +7,8 @@ TagManager:
   - Ground
   - Enemy
   - Portal
-<<<<<<< HEAD
-=======
   - Bullet
   - Page
->>>>>>> master
   layers:
   - Default
   - TransparentFX

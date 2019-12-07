@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 4181324337639401889}
   - component: {fileID: 4181324337639401888}
   - component: {fileID: 4181324337639401895}
-  - component: {fileID: 4181324337639401894}
   - component: {fileID: 4181324337639401884}
   - component: {fileID: 4181324337639401891}
   - component: {fileID: 4181324337639401890}
+  - component: {fileID: -315482753841899984}
   m_Layer: 0
   m_Name: AlienEnemy 1
   m_TagString: Enemy
@@ -105,22 +105,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &4181324337639401894
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4181324337639401893}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 845a1872c66c5334aa8df330c241c975, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 15
-  timeBetweenMovements: 2
-  timeToMove: 1
-  waitReload: 2
 --- !u!114 &4181324337639401884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -181,3 +165,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.34, y: 0.62}
   m_EdgeRadius: 0
+--- !u!114 &-315482753841899984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4181324337639401893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9bfeba45d009f4429f3357a3e326eb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 50
+  timeBetweenMovements: 1
+  timeToMove: 2
+  waitReload: 0
+  hit: 0
