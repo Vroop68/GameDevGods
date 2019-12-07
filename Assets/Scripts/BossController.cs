@@ -16,6 +16,7 @@ public class BossController : MonoBehaviour
     private float timeToMoveCounter;
     private AudioSource Death;
     public int hit = 0;
+    public int bossHealth;
 
 
     // Use this for initialization
@@ -72,7 +73,7 @@ public class BossController : MonoBehaviour
 
     public void checkhit()
     {
-        if (hit == 8)
+        if (hit == bossHealth)
         {
             Death.Play();
             Destroy(gameObject, 0.5f);
