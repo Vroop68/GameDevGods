@@ -18,7 +18,7 @@ public class BulletScript : MonoBehaviour
     void Update()
     {
         rb.velocity = new Vector2(velX, 0f);
-        Destroy(gameObject, 1.9f);
+        Destroy(gameObject, 0.5f);
     }
 
     void OnCollisionEnter2D(Collision2D collision)
