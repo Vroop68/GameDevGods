@@ -77,6 +77,8 @@ public class BossController : MonoBehaviour
         {
             Death.Play();
             Destroy(gameObject, 0.5f);
+            SceneManager.LoadScene("Menu");
+
         }
     }
 }
