@@ -11998,11 +11998,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: GhostEnemy (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 1348302822790362024, guid: 48e681b5c1dc8804fa94b736c60551de,
-        type: 3}
-      propertyPath: moveSpeed
-      value: 23
-      objectReference: {fileID: 0}
     - target: {fileID: 1348302822790362029, guid: 48e681b5c1dc8804fa94b736c60551de,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12067,6 +12062,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingLayer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1348302822790362024, guid: 48e681b5c1dc8804fa94b736c60551de,
+        type: 3}
+      propertyPath: moveSpeed
+      value: 23
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48e681b5c1dc8804fa94b736c60551de, type: 3}
@@ -13412,20 +13412,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 188695003171045955, guid: c42b9950f087fb84492386cc8b9ea0e8,
+    - target: {fileID: 3412501236735858982, guid: c42b9950f087fb84492386cc8b9ea0e8,
         type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
+      propertyPath: m_Name
+      value: Canvas
       objectReference: {fileID: 0}
-    - target: {fileID: 188695003171045955, guid: c42b9950f087fb84492386cc8b9ea0e8,
+    - target: {fileID: 3412501236735858982, guid: c42b9950f087fb84492386cc8b9ea0e8,
         type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 188695003991752453, guid: c42b9950f087fb84492386cc8b9ea0e8,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 11.300049
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3412501236735858909, guid: c42b9950f087fb84492386cc8b9ea0e8,
         type: 3}
@@ -13547,15 +13542,20 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3412501236735858982, guid: c42b9950f087fb84492386cc8b9ea0e8,
+    - target: {fileID: 188695003171045955, guid: c42b9950f087fb84492386cc8b9ea0e8,
         type: 3}
-      propertyPath: m_Name
-      value: Canvas
+      propertyPath: m_AnchorMax.x
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3412501236735858982, guid: c42b9950f087fb84492386cc8b9ea0e8,
+    - target: {fileID: 188695003171045955, guid: c42b9950f087fb84492386cc8b9ea0e8,
         type: 3}
-      propertyPath: m_IsActive
-      value: 1
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 188695003991752453, guid: c42b9950f087fb84492386cc8b9ea0e8,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 11.300049
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c42b9950f087fb84492386cc8b9ea0e8, type: 3}
@@ -27144,6 +27144,16 @@ PrefabInstance:
       propertyPath: fireRate
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 4236017846811302843, guid: 56b362b1a7f0e4c4c96e818c54d18a3b,
+        type: 3}
+      propertyPath: playerMaxHealth
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4236017846811302843, guid: 56b362b1a7f0e4c4c96e818c54d18a3b,
+        type: 3}
+      propertyPath: playerCurrentHealth
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 56b362b1a7f0e4c4c96e818c54d18a3b, type: 3}
 --- !u!4 &1410673214 stripped
@@ -30446,11 +30456,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: GhostEnemy (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 1348302822790362024, guid: 48e681b5c1dc8804fa94b736c60551de,
-        type: 3}
-      propertyPath: moveSpeed
-      value: 23
-      objectReference: {fileID: 0}
     - target: {fileID: 1348302822790362029, guid: 48e681b5c1dc8804fa94b736c60551de,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -30505,6 +30510,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1348302822790362024, guid: 48e681b5c1dc8804fa94b736c60551de,
+        type: 3}
+      propertyPath: moveSpeed
+      value: 23
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48e681b5c1dc8804fa94b736c60551de, type: 3}
@@ -30978,11 +30988,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: GhostEnemy (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 1348302822790362024, guid: 48e681b5c1dc8804fa94b736c60551de,
-        type: 3}
-      propertyPath: moveSpeed
-      value: 23
-      objectReference: {fileID: 0}
     - target: {fileID: 1348302822790362029, guid: 48e681b5c1dc8804fa94b736c60551de,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -31037,6 +31042,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1348302822790362024, guid: 48e681b5c1dc8804fa94b736c60551de,
+        type: 3}
+      propertyPath: moveSpeed
+      value: 23
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48e681b5c1dc8804fa94b736c60551de, type: 3}
@@ -33249,11 +33259,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: GhostEnemy (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 1348302822790362024, guid: 48e681b5c1dc8804fa94b736c60551de,
-        type: 3}
-      propertyPath: moveSpeed
-      value: 23
-      objectReference: {fileID: 0}
     - target: {fileID: 1348302822790362029, guid: 48e681b5c1dc8804fa94b736c60551de,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -33308,6 +33313,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1348302822790362024, guid: 48e681b5c1dc8804fa94b736c60551de,
+        type: 3}
+      propertyPath: moveSpeed
+      value: 23
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48e681b5c1dc8804fa94b736c60551de, type: 3}
@@ -37126,11 +37136,6 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
-    - target: {fileID: 1348302822790362024, guid: 48e681b5c1dc8804fa94b736c60551de,
-        type: 3}
-      propertyPath: moveSpeed
-      value: 23
-      objectReference: {fileID: 0}
     - target: {fileID: 1348302822790362029, guid: 48e681b5c1dc8804fa94b736c60551de,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -37185,6 +37190,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1348302822790362024, guid: 48e681b5c1dc8804fa94b736c60551de,
+        type: 3}
+      propertyPath: moveSpeed
+      value: 23
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48e681b5c1dc8804fa94b736c60551de, type: 3}
@@ -37546,6 +37556,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 853375908}
     m_Modifications:
+    - target: {fileID: 3298256502040219709, guid: 8f3262ef7457e564dbb27a4ad43b8db0,
+        type: 3}
+      propertyPath: m_Name
+      value: Slider
+      objectReference: {fileID: 0}
     - target: {fileID: 3298256502040219708, guid: 8f3262ef7457e564dbb27a4ad43b8db0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -37604,7 +37619,7 @@ PrefabInstance:
     - target: {fileID: 3298256502040219708, guid: 8f3262ef7457e564dbb27a4ad43b8db0,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 11.299988
+      value: 11.300049
       objectReference: {fileID: 0}
     - target: {fileID: 3298256502040219708, guid: 8f3262ef7457e564dbb27a4ad43b8db0,
         type: 3}
@@ -37650,11 +37665,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3298256502040219709, guid: 8f3262ef7457e564dbb27a4ad43b8db0,
-        type: 3}
-      propertyPath: m_Name
-      value: Slider
       objectReference: {fileID: 0}
     - target: {fileID: 3298256502859345274, guid: 8f3262ef7457e564dbb27a4ad43b8db0,
         type: 3}
