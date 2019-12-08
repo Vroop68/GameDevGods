@@ -20,7 +20,7 @@ public class StoryPage : MonoBehaviour
         {
             Destroy(gameObject);
             story.gameObject.SetActive(true);
-            Destroy(gameObject, 10f);
+            Destroy(story.gameObject, 10f);
         }
     }
 }
